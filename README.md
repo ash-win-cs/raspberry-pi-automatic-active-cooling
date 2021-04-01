@@ -2,7 +2,8 @@
 An automatic fan speed control for RPI4 depending upon the temprature using python script.
 
 References : 
-* [Andreas Spiess](https://www.sensorsiot.org/pimp-my-raspberry-pi-3/)
+* [Andreas Spiess 1](https://www.sensorsiot.org/pimp-my-raspberry-pi-3/)
+* [Andreas Spiess 2](https://www.sensorsiot.org/variable-speed-cooling-fan-for-raspberry-pi-using-pwm-video138/)
 * [SCP File Transfer RPI Documentation](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
 
 ## Hardware
@@ -28,11 +29,11 @@ cd Scripts
 scp fanShutdownPWM.py root@192.168.43.112:Scripts/
 ```
 > note that ssh client should be installed on both sides (PC & RPI) use the below code to install.
-`apt-get install openssh-client`
+```apt-get install openssh-client```
 
 * Now run the python code using the command
 ```python fanShutdownPWM.py```
 
-*
+* 
 
 
