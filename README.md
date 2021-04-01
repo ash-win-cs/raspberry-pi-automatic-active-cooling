@@ -5,4 +5,4 @@ Reference : [Andreas Spiess](https://www.sensorsiot.org/pimp-my-raspberry-pi-3/)
 
 ## Hardware
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Hardware")
+![alt text](https://github.com/ash-win-cs/raspberry-pi-automatic-active-cooling/blob/main/assets/hardware.jpg "Hardware")
