@@ -1,4 +1,4 @@
 #!/bin/sh
 # launcher.sh
 
-sudo python /home/pi/Scripts/fancontroll.py &
+sudo python /root/Scripts/fancontroll.py &
