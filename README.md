@@ -63,6 +63,9 @@ At the end of the file add the following line and save the file
 ```
 @reboot sh /root/Scripts/launcher.sh >/root/logs/cronlog 2>&1
 ```
+> Note to add the directory loaction according to your RPI, to get the path of directory use the command `pwd`
+
+
 * Now reboot the RPI to get the changes saved
 
 References : 
