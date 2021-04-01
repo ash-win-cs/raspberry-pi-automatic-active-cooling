@@ -26,13 +26,13 @@ cd Scripts
 
 * Now copy the python file from PC to RPI `Scripts` folder, that can be done using many methods here I will use `SCP` command for sending files over SSH
 ```
-scp fanShutdownPWM.py root@192.168.43.112:Scripts/
+scp fancontroll.py root@192.168.43.112:Scripts/
 ```
 > note that ssh client should be installed on both sides (PC & RPI) use the below code to install.
 ```apt-get install openssh-client```
 
 * Now run the python code using the command
-```python fanShutdownPWM.py```
+```python fancontroll.py```
 
 * 
 
